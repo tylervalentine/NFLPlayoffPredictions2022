@@ -27,7 +27,7 @@ h2 {
 
 <main>
   <h1> Super Bowl Predictions </h1>
-  <form action= "info.php" method=”get”>
+  <form action= ".gitignore/info.php" method=”get”>
     <h2> <font style= "color: rgba(255,255,255,1.0)"> Name: </font> <input type="text" name= "nameFirst" placeholder="First Name" required> <input type="text" name= "nameLast" placeholder="Last Name" required> </h2>
     <h2> <font style= "color: rgba(220,20,60,1.0)"> (2) Kansas City Chiefs (12-5)  </font> VS <font style= "color: rgba(255,255,0,1.0)"> (7) Pittsburgh Steelers (9-7-1) </font>:  <input type="text" name= "AFCWildCardOne" placeholder="Winner" required> </h2>
     <h2> <font style= "color: rgba(0,0,255,1.0)"> (3) Buffalo Bills (11-6) </font> VS <font style= "color: rgba(0,0,128,1.0)"> (6) New England Patriots (10-7) </font>:  <input type="text" name= "AFCWildCardTwo" placeholder="Winner" required> </h2>
