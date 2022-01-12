@@ -16,13 +16,11 @@ A simple NFL Playoff Prediction template to fill out for the 2022 postseason. Re
 
 ### prediction.php
 
--Designs page using HTML and CSS \n
--Used to get results from text prompts
+Designs page using HTML and CSS, used to get results from text prompts
 
 ### info.php (hidden)
 
--Processes incoming data using CSS \n
--Connects to MySQL database and inputs data given from HTML page
+Processes incoming data using CSS and connects to MySQL database to input data given from HTML page
 
 ### lombardi-trophy.png
 
