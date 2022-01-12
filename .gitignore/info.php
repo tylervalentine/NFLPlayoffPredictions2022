@@ -1,13 +1,13 @@
 
 <?php
-$link = mysqli_connect("127.0.0.1:3307", "valentinet02", "Baseball-19", "NFLPlayoffPredictions2022");
+$link = mysqli_connect("127.0.0.1", "nfl", "predictions", "NFLPlayoffPredictions2022");
 
 if($link === false)
 {
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
 
-if (isset($_GET['Submit1'])) 
+if (isset($_GET['Submit1']))
 {
   $user_info = sprintf("INSERT INTO UserPredictions (nameFirst, nameLast, AFCWildCardOneWinner, AFCWildCardTwoWinner, AFCWildCardThreeWinner, NFCWildCardOneWinner, NFCWildCardTwoWinner, NFCWildCardThreeWinner, AFCDivisionalOneWinner, AFCDivisionalTwoWinner, NFCDivisionalOneWinner, NFCDivisionalTwoWinner, AFCChampionshipWinner, NFCChampionshipWinner, SuperBowlWinner)
   VALUES ('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')",
@@ -15,7 +15,7 @@ if (isset($_GET['Submit1']))
   mysqli_real_escape_string($link, $_GET['NFCWildCardTwo']),
   mysqli_real_escape_string($link, $_GET['NFCWildCardThree']), mysqli_real_escape_string($link, $_GET['AFCDivisionalOne']), mysqli_real_escape_string($link, $_GET['AFCDivisionalTwo']), mysqli_real_escape_string($link, $_GET['NFCDivisionalOne']), mysqli_real_escape_string($link, $_GET['NFCDivisionalTwo']),
   mysqli_real_escape_string($link, $_GET['AFCChampionship']), mysqli_real_escape_string($link, $_GET['NFCChampionship']), mysqli_real_escape_string($link, $_GET['SuperBowl']));
-    
+
   $result = mysqli_query($link, $user_info);
   if ($result)
   {
@@ -24,7 +24,7 @@ if (isset($_GET['Submit1']))
 
   mysqli_close($link);
 }
-else 
+else
 {
   echo "Information not added. Please try again.";
 }
