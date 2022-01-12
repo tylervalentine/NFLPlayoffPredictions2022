@@ -41,7 +41,6 @@ h2 {
     <h2> <font style= "color: rgba(255,255,255,1.0)"> (NFC Wild Card Winner) </font> VS <font style= "color: rgba(255,255,255,1.0)"> (NFC Wild Card Winner) </font>:  <input type="text" name= "NFCDivisionalTwo" placeholder="Winner" required> </h2>
     <h2> <font style= "color: rgba(255,255,255,1.0)"> (AFC Divisional Winner) </font> VS <font style= "color: rgba(255,255,255,1.0)"> (AFC Divisional Winner) </font>:  <input type="text" name= "AFCChampionship" placeholder="Winner" required> </h2>
     <h2> <font style= "color: rgba(255,255,255,1.0)"> (NFC Divisional Winner) </font> VS <font style= "color: rgba(255,255,255,1.0)"> (NFC Divisional Winner) </font>:  <input type="text" name= "NFCChampionship" placeholder="Winner" required> </h2>
-    <h2> <font style= "color: rgba(255,255,255,1.0)"> Super Bowl Winner: </font> <input type="text" name= "SuperBowl" placeholder="Winner" required>
-    <button type="submit" name="Submit1">Submit</button> </h2>
+    <h2> <font style= "color: rgba(255,255,255,1.0)"> Super Bowl Winner: </font> <input type="text" name= "SuperBowl" placeholder="Winner" required> <button type="submit" name="Submit1">Submit</button> </h2>
   </form>
 </main>
