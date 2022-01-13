@@ -4,6 +4,10 @@
 
 A simple NFL Playoff Prediction template to fill out for the 2022 postseason. Results are written to a database and saved to see who got the most answers correct. Uses HTML and CSS for design, and PHP and MySQL to process incoming answers.
 
+## Requirements
+1. PHP
+2. Fair knowledge of terminal/command prompt usage
+
 ## How To Use
 
 1. Download code, unzip file
