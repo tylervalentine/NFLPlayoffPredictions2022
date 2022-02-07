@@ -1,6 +1,6 @@
 
 <?php
-$link = mysqli_connect("10.77.169.42", "nfl", "predictions", "NFLPlayoffPredictions2022");
+$link = mysqli_connect("10.77.162.193", "nfl", "predictions", "NFLPlayoffPredictions2022");
 
 if($link === false)
 {
