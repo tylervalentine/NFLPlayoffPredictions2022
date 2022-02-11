@@ -8,13 +8,20 @@
 
 ### Introduction
 
-A simple NFL Playoff Prediction template to fill out for the 2022 postseason. Results are written to a database and saved to see who got the most answers correct. Uses HTML, CSS and JavaScript for design, PHP and MySQL to process incoming answers.
+NFLPlayoffPredictions2022 is a simple form document used to process inputs by a user and submit them to a database. This project is a training project used to get more familiar with front-end languages such as CSS and JavaScript, and to understand functionality between back-end and front-end aspects of coding. Once the form is running, it will ask the user for the winners of each National Football League (NFL) playoff game winner of 2022 and submit each answer incrementally. The code will also use each answer to calculate seeding for future games, which will be further discussed in an upcoming section. The final submit button at the bottom of the form will send all previous answers to a database to store for future use. 
 
 ### Technologies
+* [HTML](https://html.com)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [JavaScript](https://www.javascript.com)
+* [PHP 7.3.29](https://www.php.net/releases)
+* [MySQL 8.0.26](https://www.mysql.com)
+  
 
 ### Requirements
-1. PHP
+1. [PHP 7.3.29](https://www.php.net/releases)
 2. Fair knowledge of terminal/command prompt usage
+3. A working web browser
 
 ### Setup
 
