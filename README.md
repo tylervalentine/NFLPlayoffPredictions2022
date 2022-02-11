@@ -19,9 +19,12 @@ A simple NFL Playoff Prediction template to fill out for the 2022 postseason. Re
 ```
   php -S 127.0.0.1:8000
 ```
-5. Open 127.0.0.1:8000/prediction.php in your web browser
-6. Enter your prediction for each game and hit the "submit" button
-7. The final submit button will submit all answers to the database!
+5. Open this URL in your web browser:
+```
+  127.0.0.1:8000/prediction.php
+```
+7. Enter your prediction for each game and hit the "submit" button each time to submit answers.
+8. The final submit button will submit all answers to the database!
 
 ## Files
 
