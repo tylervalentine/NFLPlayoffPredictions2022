@@ -58,5 +58,18 @@ This is the background image used in the form document.
 
 ### Screenshots
 
+#### Start Screen
+
+![Image](https://github.com/tylervalentine/NFLPlayoffPredictions2022/blob/main/screenshots/StartScreen.png)
+
+#### Screen After Submissions
+
+![Image](https://github.com/tylervalentine/NFLPlayoffPredictions2022/blob/main/screenshots/FormsFilled.png)
+
+#### Feedback Shown After Final Submission
+
+![Image](https://github.com/tylervalentine/NFLPlayoffPredictions2022/blob/main/screenshots/EndFeedback.png)
+
+
 
 
