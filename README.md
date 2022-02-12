@@ -5,7 +5,7 @@
 * [Technologies](#Technologies)
 * [Requirements](#Requirements)
 * [Setup](#Setup)
-* [Code Examples](#CodeExamples)
+* [Screenshots](#Screenshots)
 
 ### Introduction
 
@@ -56,5 +56,7 @@ This file processes incoming data from 'prediction.php' using PHP and connects t
 
 This is the background image used in the form document.
 
-### CodeExamples
+### Screenshots
+
+
 
